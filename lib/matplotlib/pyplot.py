@@ -1904,6 +1904,10 @@ def colormaps():
       summer      sequential linearly-increasing shades of green-yellow
       viridis     perceptually uniform shades of blue-green-yellow
       winter      linearly-increasing shades of blue-green
+      twilight    cyclic, printable, colorblind-aware, perceptually uniform
+                  shades of white-blue-black-red-white
+      sunlight    cyclic, printable, colorblind-aware, perceptually uniform
+                  shades of black-red-white-blue-black
       =========   =======================================================
 
     For the above list only, you can also set the colormap using the

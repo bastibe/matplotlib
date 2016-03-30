@@ -327,7 +327,9 @@ def boilerplate_gen():
         'magma',
         'inferno',
         'plasma',
-        'viridis'
+        'viridis',
+        'sunlight',
+        'twilight'
     )
     # add all the colormaps (autumn, hsv, ....)
     for name in cmaps:

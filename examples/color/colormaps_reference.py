@@ -57,7 +57,8 @@ cmaps = [('Perceptually Uniform Sequential',
                              'brg', 'CMRmap', 'cubehelix',
                              'gnuplot', 'gnuplot2', 'gist_ncar',
                              'nipy_spectral', 'jet', 'rainbow',
-                             'gist_rainbow', 'hsv', 'flag', 'prism'])]
+                             'gist_rainbow', 'hsv', 'flag', 'prism']),
+         ('Perceptually Uniform Cyclic', ['twilight', 'sunlight'])]
 
 
 nrows = max(len(cmap_list) for cmap_category, cmap_list in cmaps)
